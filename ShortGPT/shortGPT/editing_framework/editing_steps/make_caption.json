@@ -1,0 +1,39 @@
+{
+  "caption": {
+    "type": "text",
+    "z": 4,
+    "inputs": {
+      "parameters": ["text"],
+      "actions": ["set_time_start", "set_time_end"]
+    },
+    "parameters": {
+      "text": null,
+      "fontsize": 100,
+      "font": "public/Anta-Regular.ttf",
+      "color": "white",
+      "highlight_color": "#FFD700",
+      "stroke_width": 3,
+      "stroke_color": "black",
+      "method": "caption",
+      "size": [900, null],
+      "words_to_show": 4,
+      "highlight_method": "dynamic_word"
+    },
+    "actions": [
+      {
+        "type": "set_time_start",
+        "param": null
+      },
+      {
+        "type": "set_time_end",
+        "param": null
+      },
+      {
+        "type": "screen_position",
+        "param": {
+          "pos": "center"
+        }
+      }
+    ]
+  }
+}

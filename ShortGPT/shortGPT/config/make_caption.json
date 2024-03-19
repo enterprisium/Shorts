@@ -1,0 +1,15 @@
+{
+  "caption_style": {
+    "font": "public/Anta-Regular.ttf",
+    "fontsize": 24,
+    "color": "#FFFFFF", // White color for the regular text
+    "highlight_color": "#FFD700", // Gold color for the highlighted (active) word
+    "background_color": "transparent",
+    "stroke_width": 2,
+    "stroke_color": "#000000", // Black stroke for better readability
+    "alignment": "center",
+    "margin_bottom": 20, // Adjust based on your layout
+    "words_to_show": 4, // Shows only 4 words in the subtitle
+    "highlight_method": "dynamic" // Indicates the method to dynamically highlight the active word
+  }
+}
